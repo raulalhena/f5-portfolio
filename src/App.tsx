@@ -5,6 +5,7 @@ import Aboutme from "./pages/Aboutme";
 import Technologies from "./pages/Technologies";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
 import NotFound from "./pages/NotFound";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path='/tech' element={<Technologies />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/blog' element={<Blog />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
     </>
