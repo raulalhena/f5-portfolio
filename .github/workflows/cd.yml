@@ -29,8 +29,7 @@ jobs:
         script: |
           cd /home/${{ secrets.USERNAME }}/apps/portfolio/
           git pull origin main
-          # ls
-          # git status
-          # cd frontend
-          # npm install --only=prod
-          # pm2 restart node1
+          git status
+          cd frontend
+          npm install --only=prod
+          pm2 restart node1
