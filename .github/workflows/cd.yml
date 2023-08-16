@@ -33,5 +33,4 @@ jobs:
           cd frontend
           nvm use v16.20.1
           npm install --only=prod
-          # npm run start
-  
+          npm run build
