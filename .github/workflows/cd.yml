@@ -31,6 +31,6 @@ jobs:
           git pull origin main
           git status
           cd frontend
-          touch HOLA.TXT
-          # npm install --only=prod
+          nvm use v16.20.1
+          npm install --only=prod
           # npm run start
