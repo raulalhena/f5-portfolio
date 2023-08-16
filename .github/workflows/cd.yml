@@ -32,5 +32,5 @@ jobs:
           git status
           cd frontend
           nvm use v16.20.1
-          npm install --only=prod
+          npm install
           npm run build
