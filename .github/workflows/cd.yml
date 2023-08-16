@@ -32,4 +32,4 @@ jobs:
           git status
           cd frontend
           npm install --only=prod
-          pm2 restart node1
+          npm run start node1
