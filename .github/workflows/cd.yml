@@ -31,5 +31,6 @@ jobs:
           git pull origin main
           git status
           cd frontend
-          npm install --only=prod
-          npm run start node1
+          touch HOLA.TXT
+          # npm install --only=prod
+          # npm run start
