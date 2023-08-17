@@ -34,3 +34,4 @@ jobs:
           nvm use v16.20.1
           npm install
           npm run build
+          npm run preview
