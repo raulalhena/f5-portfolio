@@ -30,7 +30,7 @@ jobs:
           cd /home/${{ secrets.USERNAME }}/apps/portfolio/
           git pull origin main
           git status
-  # lsof -t -i :3000 | xargs kill -9
+        # lsof -t -i :3000 | xargs kill -9
           cd frontend
           nvm use v16.20.1
           npm install
