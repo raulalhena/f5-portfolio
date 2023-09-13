@@ -8,7 +8,7 @@ const heroStyles = {
   display: 'flex',  
   alignItems: 'center',
   flexDirection: 'column',
-  fontFamily: 'Roboto'
+  fontFamily: 'Roboto',
 }
 
 function Hero() {

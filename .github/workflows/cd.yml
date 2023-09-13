@@ -34,7 +34,6 @@ jobs:
           nvm use v16.20.1
           npm install
           npm run build
-          rm -r /var/www/raulalhena.com/html/*
           cp -r ./dist/* /var/www/raulalhena.com/html/
           cd ../backend
           npm install
