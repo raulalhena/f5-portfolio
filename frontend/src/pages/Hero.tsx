@@ -2,18 +2,16 @@ import '@fontsource/roboto';
 import '@fontsource/mulish';
 import stackIcons from '../data/stack';
 
-
 function Hero() {
   return (
     <main style={{
-		
-  background: '#222222',
-  height: '100vh',
-  display: 'flex',  
-  alignItems: 'center',
-  flexDirection: 'column',
-  fontFamily: 'Roboto',
-	}}>
+      background: '#222222',
+      height: '100vh',
+      display: 'flex',  
+      alignItems: 'center',
+      flexDirection: 'column',
+      fontFamily: 'Roboto',
+    }}>
       <section style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: '20px' }}>
         <article style={{ color: '#eeeeee', fontFamily: 'Roboto', fontSize: '40px'}}>
          <p>My name is <span style={{ color: '#eeaa22'}}>Raúl Alhena</span></p>
