@@ -29,6 +29,8 @@ jobs:
         script: |
           cd /home/${{ secrets.USERNAME }}/apps/portfolio/
           git pull origin main
+          git add .
+          git commit -m 'deploy'
           git status
           cd frontend
           nvm use v16.20.1
