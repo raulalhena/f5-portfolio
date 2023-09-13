@@ -28,15 +28,15 @@ jobs:
         port: 22
         script: |
           cd /home/${{ secrets.USERNAME }}/apps/portfolio/
-          rm -R *
+          rm -r *
           git pull origin main
           git status
           cd frontend
           nvm use v16.20.1
           npm install
           npm run build
-          rm -R /var/www/raulalhena.com/html/*
-          cp -R ./dist/* /var/www/raulalhena.com/html/
+          rm -r /var/www/raulalhena.com/html/*
+          cp -r ./dist/* /var/www/raulalhena.com/html/
           cd ../backend
           npm install
           npm run build
