@@ -18,7 +18,7 @@ function Hero() {
          <p>I am a <span style={{ color: '#eeaa22'}}>FullStack Web Developer</span></p>
         </article>
         <article style={{ color: '#eeeeee', fontFamily: 'Roboto', fontSize: '20px'}}>
-         <p>This web is <span style={{ color: '#000099' }}>under construction.</span> Good things take time</p>
+         <p>This web is <span style={{ color: '#add8e6' }}>under construction.</span> Good things take time</p>
         </article>
       </section>
       <section>
