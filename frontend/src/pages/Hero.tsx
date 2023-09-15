@@ -41,3 +41,5 @@ function Hero() {
         </article>
       </section>
     </main>
+)
+}
