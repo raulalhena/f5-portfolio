@@ -1,84 +1,36 @@
 const stackIcons = [
-    {
-      file: "nestjs.png",
-      alt: 'NestJS'
-    },
-    {
-      file: "nodejs.png",
-      alt: 'NodeJS'
-    },
-    {
-      file: "js.png",
-      alt: 'JavaScript'
-    },
-    {
-      file: "mongodb.png",
-      alt: 'MongoDB'
-    },
-    {
-      file: "linux.jpg",
-      alt: 'Linux'
-    },
-    {
-      file: "ts.png",
-      alt: 'Typescript'
-    },
-    {
-      file: "html.png",
-      alt: 'HTML'
-    },
-    {
-      file: "css.png",
-      alt: 'CSS'
-    },
-    {
-      file: "ts.png",
-      alt: 'Typescript'
-    },
-    {
-      file: "java-logo-1.png",
-      alt: 'Java'
-    },
-    {
-      file: "mysql.png",
-      alt: 'MySQL'
-    },
-    {
-      file: "react.png",
-      alt: 'React'
-    },
-    {
-      file: "git.png",
-      alt: 'Git'
-    },
-    {
-      file: "docker.png",
-      alt: 'Docker'
-    },
-    {
-      file: "c.png",
-      alt: 'C'
-    },
-    {
-      file: "github1.png",
-      alt: "GitHub"
-    },
-    {
-      file: "postgre.png",
-      alt: "PostgreSQL"
-    },
-    {
-      file: "solidity.png",
-      alt: "Solidity"
-    },
-    {
-      file: "vite.webp",
-      alt: "Vite"
-    },
-    {
-      file: "figma.png",
-      alt: "Figma"
-    }
-  ];
+  { "icon": "js", "text": "js" },
+  { "icon": "html", "text": "html" },
+  { "icon": "css", "text": "css" },
+  { "icon": "nodejs", "text": "nodejs" },
+  { "icon": "typescript", "text": "typescript" },
+  { "icon": "express", "text": "express" },
+  { "icon": "nestjs", "text": "nestjs" },
+  { "icon": "react", "text": "react" },
+  { "icon": "java", "text": "java" },
+  { "icon": "spring", "text": "spring" },
+  { "icon": "nextjs", "text": "nextjs" },
+  { "icon": "c", "text": "c" },
+  { "icon": "solidity", "text": "solidity" },
+  { "icon": "git", "text": "git" },
+  { "icon": "github", "text": "github" },
+  { "icon": "mysql", "text": "mysql" },
+  { "icon": "mongodb", "text": "mongodb" },
+  { "icon": "postgres", "text": "postgres" },
+  { "icon": "linux", "text": "linux" },
+  { "icon": "postman", "text": "postman" },
+  { "icon": "vscode", "text": "vscode" },
+  { "icon": "visualstudio", "text": "visualstudio" },
+  { "icon": "vite", "text": "vite" },
+  { "icon": "prisma", "text": "prisma" },
+  { "icon": "figma", "text": "figma" },
+  { "icon": "materialui", "text": "materialui" },
+  { "icon": "jest", "text": "jest" },
+  { "icon": "docker", "text": "docker" },
+  { "icon": "nginx", "text": "nginx" },
+  { "icon": "githubactions", "text": "githubactions" },
+  { "icon": "bash", "text": "bash" },
+  { "icon": "unity", "text": "unity" }
+];
 
   export default stackIcons;
