@@ -41,7 +41,3 @@ function Hero() {
         </article>
       </section>
     </main>
-  )
-}
-
-export default Hero
