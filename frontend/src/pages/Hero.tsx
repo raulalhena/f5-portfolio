@@ -28,11 +28,11 @@ function Hero() {
         <article style={{ paddingTop: '20px', paddingBottom: '20px', width: '60vw', boxShadow: '10px 5px 5px #111', borderRadius: '15px', border: '0.5px solid #111', marginBottom: '40px' }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr', gap: '15px', columnGap: '1px', justifyItems: 'center'  }}>
             {
-              stackIcons.map(icon => {
+              stackIcons.map(item => {
                 return(
                   <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                    <img loading='lazy' src={`../../assets/img/${icon.file}`} alt={icon.alt} style={{ objectFit: 'cover', maxWidth: '25%' }}/>
-                    <p style={{ fontFamily: 'Mulish', color: '#eee' }}>{icon.alt}</p>
+                     <img loading='lazy' src={`https://skillicons.dev/icons?i=${item.icon}`} />
+                    <p style={{ fontFamily: 'Mulish', color: '#eee' }}>{item.text[0].toUpperCase() + item.text.slice(1)}</p>
                   </div>
                 )
               })
