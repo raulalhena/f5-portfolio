@@ -43,3 +43,5 @@ function Hero() {
     </main>
 )
 }
+
+export default Hero
