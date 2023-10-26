@@ -30,7 +30,8 @@ const stackIcons = [
   { "icon": "nginx", "text": "nginx" },
   { "icon": "githubactions", "text": "githubactions" },
   { "icon": "bash", "text": "bash" },
-  { "icon": "unity", "text": "unity" }
+  { "icon": "unity", "text": "unity" },
+  { "icon": "python", "text": "python" }
 ];
 
   export default stackIcons;
