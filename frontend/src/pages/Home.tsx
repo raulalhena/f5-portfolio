@@ -1,6 +1,8 @@
+import Model3D from "../components/Model3D"
+
 function Home() {
   return (
-    <div>Home</div>
+    <Model3D />
   )
 }
 
